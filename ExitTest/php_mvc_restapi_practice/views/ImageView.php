@@ -1,0 +1,10 @@
+<?php
+
+class ImageView {
+    public function render($response) {
+        header('Content-Type: application/json');
+        echo json_encode($response);
+    }
+}
+
+?>
